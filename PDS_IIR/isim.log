@@ -1,0 +1,83 @@
+ISim log file
+Running: /home/ise/Documents/13.05.2021/PDS_IIR/iir_test_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Documents/13.05.2021/PDS_IIR/iir_test_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+INFO:Security:61 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:63 - The LM_LICENSE_FILE environment variable is not set.
+INFO:Security:68 - For more information or for assistance in obtaining 
+ a license, please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses".)
+INFO:Security:68a - user is ise, on host unknown.
+INFO:Security:15 - A feature for ISIM was found but is for the wrong hostid.
+ERROR:Security:14 - No feature was available for 'ISIM'.
+
+Invalid host.
+ The hostid of this system does not match the hostid
+ specified in the license file.
+Feature:       ISIM
+Hostid:        08002768c935
+License path:  /home/ise/.Xilinx/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//data/*.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/Xilinx.lic:/opt/Xilinx/14.7/ISE_DS/ISE//coregen/core_licenses/XilinxFree.lic:/opt/Xilinx/14.7/ISE_DS/EDK/data/core_licenses/Xilinx.lic:
+FLEXnet Licensing error:-9,57
+For further information, refer to the FLEXnet Licensing documentation,
+available at "www.flexerasoftware.com".
+----------------------------------------------------------------------
+WARNING: A full ISim License cannot be checked out due to the issues listed above. Please use Xilinx License Configuration Manager to fix these issues in order to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+y[          0]=xxxxxxxx ,
+y[          1]=xxxxxxxx ,
+y[          2]=00000000 ,
+y[          3]=00000000 ,
+y[          4]=00000000 ,
+y[          5]=00000000 ,
+y[          6]=00000000 ,
+y[          7]=00000000 ,
+y[          8]=00001000 ,
+y[          9]=00000000 ,
+y[         10]=fd11cec0 ,
+y[         11]=00000000 ,
+y[         12]=6200cfc0 ,
+y[         13]=00000000 ,
+y[         14]=1ef8f840 ,
+y[         15]=00000000 ,
+y[         16]=db8b5c00 ,
+y[         17]=00000000 ,
+y[         18]=59eef240 ,
+y[         19]=00000000 ,
+y[         20]=c17e5a40 ,
+y[         21]=00000000 ,
+y[         22]=a42db300 ,
+y[         23]=00000000 ,
+y[         24]=e1895e80 ,
+y[         25]=00000000 ,
+y[         26]=ccbe34c0 ,
+y[         27]=00000000 ,
+y[         28]=b1ed0580 ,
+y[         29]=00000000 ,
+y[         30]=9a9445c0 ,
+y[         31]=00000000 ,
+y[         32]=dc49c500 ,
+y[         33]=00000000 ,
+y[         34]=1fae1300 ,
+y[         35]=00000000 ,
+y[         36]=e30b3e00 ,
+y[         37]=00000000 ,
+y[         38]=68f69400 ,
+y[         39]=00000000 ,
+y[         40]=7e0929c0 ,
+y[         41]=00000000 ,
+y[         42]=7cc03dc0 ,
+y[         43]=00000000 ,
+y[         44]=a3be4340 ,
+y[         45]=00000000 ,
+y[         46]=4920ea00 ,
+y[         47]=00000000 ,
+y[         48]=7c61e240 ,
+y[         49]=00000000 ,
+# exit 0
